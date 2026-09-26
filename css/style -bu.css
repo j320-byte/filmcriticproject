@@ -1,0 +1,321 @@
+body {
+    margin: 0;
+    padding: 40px 20px 0 20px;
+
+    font-family: "Century Gothic", sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+
+    background-color: #302c28;
+    background-image: url("../images/vhs-backdrop.png");
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    color: #dddddd;
+}
+
+.page {
+    max-width: 1100px;
+	min-height: 100vh;
+    margin: 0 auto;
+    padding: 45px;
+
+    background-color: #20242a;
+}
+
+@media (min-width: 2500px) {
+    .page {
+        max-width: 1500px;
+    }
+}
+
+header {
+    margin: -45px -45px 40px -45px;
+    padding: 30px 45px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    text-decoration: none;
+    color: #dddddd;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Georgia, serif;
+}
+
+.site-title {
+    font-family: Impact, sans-serif;
+    font-size: 32px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+nav {
+	 font-family: Georgia, sans-serif;
+    display: flex;
+    gap: 25px;
+}
+
+nav a {
+    font-size: 22px;
+	font-weight: bold;
+}
+
+a {
+    color: #66b3ff;
+}
+
+a:hover {
+    color: #99ccff;
+}
+
+.review h1 {
+    font-family: Georgia, serif;
+    margin-bottom: 5px;
+    font-size: 42px;
+    line-height: 1.2;
+}
+
+.review-info {
+    float: left;
+    width: 260px;
+    margin: 0 30px 20px 0;
+    padding: 15px;
+    border: 1px solid #555555;
+    box-sizing: border-box;
+}
+
+.metadata {
+	font-family: Bookman;
+    margin-bottom: 15px;
+    color: #aaaaaa;
+}
+
+.rating {
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.rating-score {
+    margin-top: 2px;
+}
+
+.rating-score span {
+    display: block;
+    font-size: 38px;
+    line-height: 1;
+	font-family: Century Gothic;
+}
+
+.stars {
+    position: relative;
+    display: inline-block;
+    margin-top: 8px;
+    line-height: 1;
+}
+
+.stars-empty,
+.stars-filled {
+    font-size: 32px;
+    letter-spacing: 3px;
+	white-space: nowrap;
+}
+
+.stars-empty {
+    color: transparent;
+    -webkit-text-stroke: 0.75px #999999;
+}
+
+.stars-filled {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.review-text {
+    font-family: "Century Gothic", sans-serif;
+}
+
+.review-text p {
+    margin-bottom: 20px;
+}
+
+.rating-0-0 {
+    background: linear-gradient(
+        to bottom,
+        #111111 0%,
+        #000000 45%,
+        #000000 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.rating-0-5 {
+    background: linear-gradient(
+        to bottom,
+        #3f3d3a 0%,
+        #171716 45%,
+        #050505 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.rating-1-0 {
+    background: linear-gradient(
+        to bottom,
+        #716b66 0%,
+        #494541 45%,
+        #292725 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.rating-1-5 {
+    background: linear-gradient(
+        to bottom,
+        #76645d 0%,
+        #4b413d 45%,
+        #2b2725 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.rating-2-0 {
+    background: linear-gradient(
+        to bottom,
+        #8b8173 0%,
+        #5d554b 45%,
+        #37332f 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.rating-2-5 {
+    background: linear-gradient(
+        to bottom,
+        #85898c 0%,
+        #55595c 45%,
+        #303336 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.rating-3-0 {
+    background: linear-gradient(
+        to bottom,
+        #d2a06a 0%,
+        #9b6335 45%,
+        #694225 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.rating-3-5 {
+    background: linear-gradient(
+        to bottom,
+        #e2b77f 0%,
+        #b97842 45%,
+        #80502f 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.rating-4-0 {
+    background: linear-gradient(
+        to bottom,
+        #f2f2f2 0%,
+        #bfc3c7 45%,
+        #8f9499 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.rating-4-5 {
+    background: linear-gradient(
+        to bottom,
+        #ffe0c7 0%,
+        #dca28e 45%,
+        #aa7462 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.rating-5-0 {
+    background: linear-gradient(
+        to bottom,
+        #ffe59a 0%,
+        #f4b82e 45%,
+        #c98216 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.directory-columns {
+    display: flex;
+    gap: 40px;
+}
+
+.directory-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border-right: 1px solid #383c42;
+    padding-right: 20px;
+}
+
+.directory-letter {
+    border-bottom: 1px solid #555555;
+    padding-bottom: 4px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+.site-brand {
+    display: flex;
+    flex-direction: column;
+}
+
+.spoiler-warning {
+    color: #b34a4a;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0.75px;
+}
+
+.rating-spectrum {
+    display: block;
+    width: 600px;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto 25px auto;
+}
