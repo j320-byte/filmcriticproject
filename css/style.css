@@ -75,7 +75,7 @@ h6 {
     font-family: Impact, sans-serif;
     font-size: 32px;
     font-weight: normal;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     text-transform: uppercase;
 }
 
@@ -88,6 +88,7 @@ nav {
 nav a {
     font-size: 22px;
 	font-weight: bold;
+	letter-spacing: 0.5px;
 }
 
 a {
@@ -155,7 +156,6 @@ a:hover {
     font-size: 38px;
     line-height: 1;
     font-family: Century Gothic;
-    -webkit-text-stroke: 0.5px #555555;
 }
 
 .stars {
@@ -349,15 +349,6 @@ a:hover {
     margin-bottom: 10px;
 }
 
-.directory-column a {
-    font-family: Arial, sans-serif;
-    font-size: 17px;
-    line-height: 1.35;
-    padding-left: 1em;
-    text-indent: -1em;
-    margin-bottom: 8px;
-}
-
 .directory-controls {
     display: flex;
     gap: 10px;
@@ -413,11 +404,15 @@ a:hover {
 }
 
 .spoiler-warning {
-    color: #b34a4a;
+    color: #d05a5a;
     font-family: Arial, sans-serif;
     font-size: 13px;
     font-weight: bold;
     letter-spacing: 0.75px;
+}
+
+.homepage-spoiler-warning {
+    font-size: 18px;
 }
 
 .rating-spectrum {
