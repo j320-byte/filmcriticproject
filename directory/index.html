@@ -23,13 +23,23 @@
 		<div class="site-brand">
 			<a href="../index.html" class="site-title">Movie Shelf Reviews</a>
 			<div class="spoiler-warning">
-				SPOILERS AHEAD — REVIEWS MAY DISCUSS PLOT DETAILS AND ENDINGS
+				SPOILERS AHEAD
 			</div>
 		</div>
 
 		<nav>
+			<div class="search-container">
+				<input
+					type="text"
+					id="review-search"
+					placeholder="Search reviewed films..."
+					autocomplete="off"
+				>
+				<div id="search-results" hidden></div>
+			</div>
+			
 			<a href="../index.html">Home</a>
-			<a href="index.html">Directory</a>
+			<a href="../directory/index.html">Directory</a>
 		</nav>
 	</header>
 
@@ -53,6 +63,9 @@
 </div>
 
 <script src="../javascript/directory.js"></script>
+
+<script src="../javascript/search-data.js"></script>
+<script src="../javascript/search.js"></script>
 
 </body>
 </html>
