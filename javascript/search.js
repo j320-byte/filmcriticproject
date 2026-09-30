@@ -25,7 +25,16 @@ searchInput.addEventListener("input", function() {
     matches.forEach(function(review) {
         const result = document.createElement("a");
 
-        result.href = review.url;
+        let reviewPath = "reviews/";
+
+		if (
+			window.location.pathname.includes("/directory/") ||
+			window.location.pathname.includes("/reviews/")
+		) {
+			reviewPath = "../reviews/";
+		}
+
+		result.href = reviewPath + review.filename + ".html";
         result.textContent = review.title + " (" + review.year + ")";
         result.className = "search-result";
 
