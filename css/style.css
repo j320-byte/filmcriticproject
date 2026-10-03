@@ -235,9 +235,9 @@ a:hover {
 .rating-0-5 {
     background: linear-gradient(
         to bottom,
-        #3f3d3a 0%,
-        #171716 45%,
-        #050505 100%
+        #536169 0%,
+        #3b484e 45%,
+        #293337 100%
     );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -246,9 +246,9 @@ a:hover {
 .rating-1-0 {
     background: linear-gradient(
         to bottom,
-        #716b66 0%,
-        #494541 45%,
-        #292725 100%
+        #657580 0%,
+        #485862 45%,
+        #2d3941 100%
     );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -257,9 +257,9 @@ a:hover {
 .rating-1-5 {
     background: linear-gradient(
         to bottom,
-        #76645d 0%,
-        #4b413d 45%,
-        #2b2725 100%
+        #8496a1 0%,
+        #627681 45%,
+        #414f59 100%
     );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -268,9 +268,9 @@ a:hover {
 .rating-2-0 {
     background: linear-gradient(
         to bottom,
-        #8b8173 0%,
-        #5d554b 45%,
-        #37332f 100%
+        #a0adb4 0%,
+        #788a93 45%,
+        #53636c 100%
     );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -279,9 +279,9 @@ a:hover {
 .rating-2-5 {
     background: linear-gradient(
         to bottom,
-        #85898c 0%,
-        #55595c 45%,
-        #303336 100%
+        #c0c6c9 0%,
+        #959da1 45%,
+        #6d767b 100%
     );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
