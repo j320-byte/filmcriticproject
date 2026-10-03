@@ -236,9 +236,9 @@ a:hover {
 .rating-0-5 {
     background: linear-gradient(
         to bottom,
-        #343b3e 0%,
-        #202629 45%,
-        #111517 100%
+        #465157 0%,
+        #2d363a 45%,
+        #1a2023 100%
     );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
