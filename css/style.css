@@ -200,7 +200,7 @@ a:hover {
 
 .stars-empty {
     color: transparent;
-    -webkit-text-stroke: 0.5px #999999;
+    -webkit-text-stroke: 1px #bbbbbb;
 }
 
 .stars-filled {
@@ -230,17 +230,19 @@ a:hover {
     );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #aaaaaa;
 }
 
 .rating-0-5 {
     background: linear-gradient(
         to bottom,
-        #536169 0%,
-        #3b484e 45%,
-        #293337 100%
+        #343b3e 0%,
+        #202629 45%,
+        #111517 100%
     );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #bbbbbb;
 }
 
 .rating-1-0 {
@@ -252,6 +254,7 @@ a:hover {
     );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #aab2b7;
 }
 
 .rating-1-5 {
@@ -263,6 +266,7 @@ a:hover {
     );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #aeb8bd;
 }
 
 .rating-2-0 {
@@ -274,6 +278,8 @@ a:hover {
     );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+
+	filter: drop-shadow(0 0 3px #20242a);
 }
 
 .rating-2-5 {
@@ -285,6 +291,8 @@ a:hover {
     );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+	
+	filter: drop-shadow(0 0 3px #20242a);
 }
 
 .rating-3-0 {
@@ -296,6 +304,8 @@ a:hover {
     );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+
+	filter: drop-shadow(0 0 3px #20242a);
 }
 
 .rating-3-5 {
@@ -307,6 +317,8 @@ a:hover {
     );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+
+	filter: drop-shadow(0 0 3px #20242a);
 }
 
 .rating-4-0 {
@@ -318,6 +330,8 @@ a:hover {
     );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+
+	filter: drop-shadow(0 0 3px #20242a);
 }
 
 .rating-4-5 {
@@ -329,6 +343,8 @@ a:hover {
     );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+
+	filter: drop-shadow(0 0 3px #20242a);
 }
 
 .rating-5-0 {
@@ -340,6 +356,9 @@ a:hover {
     );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+
+	
+	filter: drop-shadow(0 0 3px #20242a);
 }
 
 .directory-columns {
