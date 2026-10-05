@@ -266,7 +266,8 @@ a:hover {
     );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 1px #aeb8bd;
+    
+	filter: drop-shadow(0 0 3px #20242a);
 }
 
 .rating-2-0 {
