@@ -416,6 +416,48 @@ a:hover {
     border-color: #888888;
 }
 
+.genre-panel {
+    margin: -10px 0 25px 0;
+    padding: 15px;
+    border: 1px solid #383c42;
+    background: #202428;
+}
+
+.genre-options {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 8px;
+}
+
+.genre-options button {
+    background: transparent;
+    color: #b8b8b8;
+    border: 1px solid #555555;
+    padding: 7px 10px;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.genre-options button:hover,
+.genre-options button.active {
+    color: #ffffff;
+    border-color: #b99551;
+}
+
+@media (max-width: 800px) {
+    .genre-options {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 500px) {
+    .genre-options {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
 .directory-total {
     margin: -15px 0 25px 0;
     font-family: Arial, sans-serif;
