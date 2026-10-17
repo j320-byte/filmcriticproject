@@ -443,11 +443,25 @@ a:hover {
     font-size: 14px;
 }
 
+
 .site-brand {
     display: flex;
     align-items: center;
     gap: 25px;
 }
+
+.site-logo {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.site-logo img {
+    display: block;
+    height: 38px;
+    width: auto;
+}
+
 
 .spoiler-warning {
     color: #c93131;
