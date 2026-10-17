@@ -416,6 +416,13 @@ a:hover {
     border-color: #888888;
 }
 
+.directory-total {
+    margin: -15px 0 25px 0;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    color: #999999;
+}
+
 .recently-added-list {
     display: flex;
     flex-direction: column;
