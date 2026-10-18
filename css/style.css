@@ -607,3 +607,23 @@ a:hover {
     color: #ffffff;
     background-color: #383c42;
 }
+
+@media (max-width: 768px) {
+    .page {
+        background-image:
+            repeating-linear-gradient(
+                0deg,
+                transparent 0px,
+                transparent 5px,
+                rgba(0, 0, 0, 0.24) 5px,
+                rgba(0, 0, 0, 0.24) 6px
+            ),
+            repeating-linear-gradient(
+                90deg,
+                transparent 0px,
+                transparent 5px,
+                rgba(0, 0, 0, 0.19) 5px,
+                rgba(0, 0, 0, 0.19) 6px
+            );
+    }
+}
