@@ -24,6 +24,8 @@ body {
     padding-top: 100px;
 
     background-color: #20242a;
+    background-image: url("../images/body_texture.png");
+    background-repeat: repeat;
 }
 
 @media (min-width: 2500px) {
